@@ -4,6 +4,11 @@
 	<link rel="shortcut icon" href="images/wecan.ico" />
 	<title>EnlightenmentClub</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet"> 
+	 <link href="https://fonts.googleapis.com/css?family=Charm|Coiny" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet"> 
+	 <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -22,15 +27,69 @@
 
 <!-- ParticleJS -->
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet"> 
 
 <!-- Custom JS -->
 <script src="includes/main.js"></script>
 </head>
+<style>
+	x {
+		font-family: 'Coiny', cursive;
+		font-size: 50px;
+	}
+	y {
+		font-family: 'Charm', cursive;
+		font-size: 32px;
+	}
+	z {
+		font-size: 32px;
+	}
+	disc {
+    	font-family: 'ZCOOL QingKe HuangYou', cursive;
+    	font-size: 64px;
+	}
+	intext{
+		font-family: 'Lora', serif;
+		font-size: 28px;
+	}
+	t{
+		color: transparent;
+		text-transform: uppercase;
+		background-image: linear-gradient(to right,#ff0,#f00,#0ff,#f0f,#00f);
+		-webkit-background-clip:text;
+		animation: animate 20s linear infinite;
+		background-size: 1000%;
+		font-size: 3em;
+	}
+	mrq{
+		font-family: 'Abril Fatface', cursive;
+		font-size: 50px;
+		color: red;
+	}
+	@keyframes animate{
+		0%
+		{
+			background-position: 0% 100%;
+		}
+		50%
+		{
+			background-position: 100% 0%;
+		}
+		100%
+		{
+			background-position: 0% 100%;
+		}
+	}
+</style>
 <body>
+	<!-- backGround Image -->
 	<body style="background-image:url(images/allback)">
+		<!-- Responsive Navigation Bar -->
 		<nav class="navbar navbar-inverse">
-			<div class="container-fluid ">
+			
 				<div class="navbar-header">
+					<spam class="navbar-brand active">Enlightenment Club</spam>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 						<span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
@@ -40,22 +99,456 @@
 
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav">
-						<li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-						<li ><a data-toggle="tab" href="#events">Events</a></li>
+						<li ><a data-toggle="tab" href="#home">Introduction</a></li>
+						<li ><a data-toggle="tab" href="#objectives">Objectives</a></li>
+						<li ><a data-toggle="tab" href="#topics"><span class="glyphicon glyphicon-list-alt"></span>Club Activities</a></li>
+						<!--li ><a data-toggle="tab" href="#alumni">Our Alumni</a></li-->
+						<li ><a data-toggle="tab" href="#wsij"><span class="glyphicon glyphicon-question-sign">WhyshouldIJoin</a></li>
+						<li><a data-toggle="tab" href="#members"><span class="glyphicon glyphicon-user"></span> Team</a></li>
+						<li><a data-toggle="tab" href="#more"><span class="glyphicon glyphicon-log-in"></span> Course Updates</a></li>
+						<li><a data-toggle="tab" href="#faq"><span class="glyphicon glyphicon-envelope">Contact Us</span></a></li>
 						
 					</ul>
+
+					
 				</div>
-			</div>
+
 			
 		</nav>
 		<div class="tab-content">
-				<div id="home" class="tab-pane fade in active">
-					<img src="images/back.jpg" class="img-thumbnail" style="width: 100%; ">
+			<div id="home" class="tab-pane fade in active">
+				<span class="text-justify"><marquee><mrq>Welcome to the Enlightenment Club</mrq></marquee></span>
+				<img src="images/back.jpg" class="img-thumbnail" style="width: 100%; ">
+				<br>
+				<div class="col-sm-2">
+					
+					<x>I</x>
+					<x>N</x>
+					<x>T</x>
+					<br>
+					<x>R</x>
+					<x>O</x>
+					<x>D</x>
+					<br>
+					<x>U</x>
+					<x>C</x>
+					<x>T</x>
+					<br>
+					<x>I</x>
+					<x>O</x>
+					<x>N</x>
+	
 				</div>
-				<div id="events" class="tab-pane fade in">
-					<img src="images/events.jpg" class="img-thumbnail" style="width: 100%;">
+
+				<div class="col-sm-8">
+					<y>"The Enlightenment"</y> <intext> is a versatile, personality  development club of NIT Agartala.It is not branch centric and focuses primarily on three major aspects useful to an engineer. Communication, coding and aptitude. Enlightenment aims at allround personality development of an individual and thus keeps changing constantly to accomodate the interests of it's  various members</intext>
+				</div>
+				<div class="col-sm-2">
+					<t><y>We</y>
+					<y>Are</y>
+					<y>Enlightenment</y>
+					<y>Club</y></t>
 				</div>
 			</div>
+			<div id="journey" class="tab-pane fade in">
+				<img src="images/events.jpg" class="img-thumbnail" style="width: 100%;">
+			</div>
+
+			<div id="members" class="tab-pane fade in">
+				<li class="text-center" ><mrq>Current Team</mrq></li>
+				<br>
+				<br>
+				<div>
+					<div class="col-sm-3">
+						<img src="images/shubham.jpeg" class="img-circle " height="200">
+					</div>
+					<div class="col-sm-9">
+						<p ><h1 class="text-left"><x>Shubham Laddha</x></h1></p>
+						<p ><h1 class="text-left"><y>President</y></h1></p>
+						<p ><h1 class="text-left"><z>laddha.shubham97@gmail.com</z></h1></p>
+					</div>
+				</div>
+				<div>
+					<div class="col-sm-9">
+						<p ><h1 class="text-right"><x>Tulika Sharma</x></h1></p>
+						<p ><h1 class="text-right"><y>Management Secretary </y></h1></p>
+						<p ><h1 class="text-right"><z>tulipsharma2014@gmail.com</z></h1></p>
+					</div>
+					<div class="col-sm-3">
+						<img src="images/tulika.jpg" class="img-circle " height="200">
+						<br>
+						<br>
+					</div>
+					
+				</div>
+
+
+				<div>
+					<div class="col-sm-3">
+						<img src="images/Harshit.jpeg" class="img-circle " height="200">
+					</div>
+					<div class="col-sm-9">
+						<p ><h1 class="text-left"><x>Harshit Gupta</x></h1></p>
+						<p ><h1 class="text-left"><y>Technical Secretary</y></h1></p>
+						<p ><h1 class="text-left"><z>harshitgupta.nitacse@gmail.com</z></h1></p>
+					</div>
+				</div>
+				<div>
+					<div class="col-sm-9">
+						<p ><h1 class="text-right"><x>Nadella Meghana</x></h1></p>
+						<p ><h1 class="text-right"><y>Member</y></h1></p>
+						<p ><h1 class="text-right"><z>meghana.nadella03@gmail.com</z></h1></p>
+					</div>
+					<div class="col-sm-3">
+						<img src="images/b.jpg" class="img-circle " height="200">
+						<br>
+						<br>
+					</div>
+					
+				</div>
+
+				<div>
+					<div class="col-sm-3">
+						<img src="images/a.jpg" class="img-circle " height="200">
+					</div>
+					<div class="col-sm-9">
+						<p ><h1 class="text-left"><x>P.Padmaja</x></h1></p>
+						<p ><h1 class="text-left"><y>Member</y></h1></p>
+						<p ><h1 class="text-left"><z>ppadmaja@gmail.com</z></h1></p>
+					</div>
+				</div>
+				<div>
+					<div class="col-sm-9">
+						<p ><h1 class="text-right"><x>Prasanna</x></h1></p>
+						<p ><h1 class="text-right"><y>Member</y></h1></p>
+						<p ><h1 class="text-right"><z>pprasnna</z></h1></p>
+					</div>
+					<div class="col-sm-3">
+						<img src="images/prasanna.jpg" class="img-circle " height="200">
+						<br>
+						<br>
+					</div>
+					
+				</div>
+
+				<div>
+					<div class="col-sm-3">
+						<img src="images/joyeta.jpg" class="img-circle " height="200">
+					</div>
+					<div class="col-sm-9">
+						<p ><h1 class="text-left"><x>Joyeta</x></h1></p>
+						<p ><h1 class="text-left"><y>Member</y></h1></p>
+						<p ><h1 class="text-left"><z>joyetamdk@gmail.com</z></h1></p>
+					</div>
+				</div>
+
+				<div>
+					<div class="col-sm-9">
+						<p ><h1 class="text-right"><x>Pankaj Kumar</x></h1></p>
+						<p ><h1 class="text-right"><y>Member</y></h1></p>
+						<p ><h1 class="text-right"><z>p4pankaj1999@gmail.com</z></h1></p>
+					</div>
+					<div class="col-sm-3">
+						<img src="images/pankaj.jpg" class="img-circle " height="200">
+						<br>
+						<br>
+					</div>
+					
+				</div>
+
+				<div>
+					<div class="col-sm-3">
+						<img src="images/ankit.jpg" class="img-circle " height="200">
+					</div>
+					<div class="col-sm-9">
+						<p ><h1 class="text-left"><x>Ankint Wanjari</x></h1></p>
+						<p ><h1 class="text-left"><y>Member</y></h1></p>
+						<p ><h1 class="text-left"><z>awanjari3@gamil.com</z></h1></p>
+					</div>
+				</div>
+
+				<div>
+					<div class="col-sm-9">
+						<p ><h1 class="text-right"><x>Pratik Nimbus Oraon</x></h1></p>
+						<p ><h1 class="text-right"><y>Member</y></h1></p>
+						<p ><h1 class="text-right"><z>p4pankaj1999@gmail.com</z></h1></p>
+					</div>
+					<div class="col-sm-3">
+						<img src="images/pr.jpeg" class="img-circle " height="200">
+						<br>
+						<br>
+					</div>
+					
+				</div>
+				<br>
+				<br>
+
+				<li class="text-center" ><mrq>Ex-Members</mrq></li>
+				<br>
+				<br>
+				<div>
+					<div class="col-sm-3">
+						<img src="images/madhavi.jpeg" class="img-circle " height="200">
+					</div>
+					<div class="col-sm-9">
+						<p ><h1 class="text-left"><x>Madhavi Nandyala</x></h1></p>
+						<p ><h1 class="text-left"><y>Ex-President</y></h1></p>
+						<p ><h1 class="text-left"><z>mashavinandyala7@gmail.com</z></h1></p>
+					</div>
+				</div>
+				<div>
+					<div class="col-sm-9">
+						<p ><h1 class="text-right"><x>Abhishek Mangipudi</x></h1></p>
+						<p ><h1 class="text-right"><y>Ex-Member</y></h1></p>
+						<p ><h1 class="text-right"><z>abhi.mangipudi2204@gmail.com</z></h1></p>
+					</div>
+					<div class="col-sm-3">
+						<img src="images/abhishek.jpeg" class="img-circle " height="200">
+						<br>
+						<br>
+					</div>
+					
+				</div>
+
+				<div>
+					<div class="col-sm-3">
+						<img src="images/simran.jpeg" class="img-circle " height="200">
+					</div>
+					<div class="col-sm-9">
+						<p ><h1 class="text-left"><x>Simran Sinha</x></h1></p>
+						<p ><h1 class="text-left"><y>Ex-Technical Secretary</y></h1></p>
+						<p ><h1 class="text-left"><z>simsinha32@gmail.com</z></h1></p>
+					</div>
+				</div>
+
+				<div>
+					<div class="col-sm-9">
+						<p ><h1 class="text-right"><x>Ritesh Ray</x></h1></p>
+						<p ><h1 class="text-right"><y>Ex-Member</y></h1></p>
+						<p ><h1 class="text-right"><z>rayritesh97@gmail.com</z></h1></p>
+					</div>
+					<div class="col-sm-3">
+						<img src="images/ritesh.jpeg" class="img-circle " height="200">
+						<br>
+						<br>
+					</div>
+					
+				</div>
+
+				<div>
+					<div class="col-sm-3">
+						<img src="images/rahul.jpeg" class="img-circle " height="200">
+					</div>
+					<div class="col-sm-9">
+						<p ><h1 class="text-left"><x>Rahul Thakur</x></h1></p>
+						<p ><h1 class="text-left"><y>Ex-Member</y></h1></p>
+						<p ><h1 class="text-left"><z>rahulthakur95k@gmail.com</z></h1></p>
+					</div>
+				</div>
+
+			</div>
+
+			<div id="more" class="tab-pane fade in">
+				<br>
+				<div class="col-sm-2">
+					
+					<x>U</x>
+					<br>
+					<x>P</x>
+					<br>
+					<x>D</x>
+					<br>
+					<x>A</x>
+					<br>
+					<x>T</x>
+					<br>
+					<x>E</x>
+					<br>
+					<x>S</x>
+					
+	
+				</div>
+
+				<div class="col-sm-8">
+					<intext></intext>
+					<div class="container">
+					  <h2>Classes Announced</h2>
+					  <p>Days and timings of different classes are as follows:</p>            
+					  <table class="table table-responsive table-hover">
+					    <thead>
+					      <tr>
+					        <th>Class</th>
+					        <th>Mentor</th>
+					        <th>Days</th>
+					        <th>Time</th>
+					      </tr>
+					    </thead>
+					    <tbody>
+					      <tr>
+					        <td>Communication</td>
+					        <td>Tulika</td>
+					        <td>Saturday, Sunday</td>
+					        <td>2:30pm to 4pm</td>
+					      </tr>
+					      <tr>
+					        <td>Python</td>
+					        <td>Shubham</td>
+					        <td>Friday,Saturday</td>
+					        <td>6pm to 8pm</td>
+
+					      </tr>
+					      <tr>
+					        <td>Solid Works</td>
+					        <td>Raj</td>
+					        <td>Saturday, Sunday</td>
+					        <td>10am to 12pm</td>
+
+					      </tr>
+
+					      <tr>
+					        <td>Java</td>
+					        <td>Harshit</td>
+					        <td>Monday, Wednesday</td>
+					        <td>6pm to 8pm</td>
+
+					      </tr>
+					    </tbody>
+					  </table>
+					</div>
+				</div>
+				<!--div class="col-sm-2">
+					<t><y>We</y>
+					<y>Are</y>
+					<y >Enlightenment</y>
+					<y>Club</y></t>
+				</div-->
+				
+			</div>
+
+			<div id="faq" class="tab-pane fade in">
+				<br>
+				<li class="text-center"><intext>Contact us at any time at: </intext></li>
+				<li class="text-center">nita.eclub@gmail.com</li>
+				
+			</div>
+
+			<div id="objectives" class="tab-pane fade in">
+				<img src="images/hands.jpg" class="img-thumbnail" style="width: 100%; ">
+				<br>
+				<div class="col-sm-2">
+					
+					<x>P</x>
+					<br>
+					<x>U</x>
+					<br>
+					<x>R</x>
+					<br>
+					<x>P</x>
+					<br>
+					<x>O</x>
+					<br>
+					<x>S</x>
+					<br>
+					<x>E</x>
+					
+	
+				</div>
+
+				<div class="col-sm-8">
+					<y>"Enlightenment focuses on all round development of an individual "</y>
+					<br>
+					<br>
+					<ol>
+						<intext><li> To encourage each member to pursue their choice of interests.</li></intext>
+						<br><br><intext><li>To emphasize on the importance of communication and to create an environment for fruitful discussions.</li></intext>
+						<br><intext><li>To encourage and  ensure members implement their ideas in an efficient manner.</li></intext>
+						<br><intext><li>To help each interested member achieve a basic level of coding which can make their learning easier hence after.</li></intext>
+						<br><intext><li>To create a trusted platform where people can exchange knowledge enriching each other. </li></intext>
+						<br><intext><li> To nurture interests of members and supporting then in every possible way, whichever their choise  field of knowlege may be.</li></intext>
+						
+					</ol>
+					
+				</div>
+				<div class="col-sm-2">
+					<t><y>We</y>
+					<y>Are</y>
+					<y >Enlightenment</y>
+					<y>Club</y></t>
+				</div>
+				
+			</div>
+
+			<div id="wsij" class="tab-pane fade in">
+				<img src="images/join1.jpg" class="img-thumbnail" style="width: 100%; ">
+				<br>
+				<div class="col-sm-2">
+					<x>W</x>
+					<x>H</x>
+					<x>Y</x>
+					<br>
+					<x>SH</x>
+					<x>OU</x>
+					<x>LD</x>
+					<br>
+					<x>I</x>
+					<br>
+					<x>J</x>
+					<x>O</x>
+					<x>I</x>
+					<x>N ?</x>
+				</div>
+
+				<div class="col-sm-8">
+					<y>"Why should I join Enlightenment Club? "</y> <intext><br>
+					        This surely is the question which needs to be answered. Every club has it's own aura and principles which stay constant throughout. Enlightenment has it's own as well. Here, people believe in nurturing personalities. 
+						It's a place where you can evolve and explore your interests as an individual. Enlightenment evolves right along with you. It aligns with your interests as they change. Communication, Aptitude and Coding. 
+						We emphasize on the importance of these three aspects as they would help you in each endeavour you wish to take in your college and there after. Each of these will only add to your strengths. 
+						It doesn't matter if you are a novice or an expert in any of them. 
+						Enlightenment has a special place for everyone. We merely don't teach or learn here. We have wonderful discussions. We make memories. We evolve. 
+						Come, join us if you wish to do the same!!</intext>
+				</div>
+				<div class="col-sm-2">
+					<t><y>We</y>
+					<y>Are</y>
+					<y >Enlightenment</y>
+					<y>Club</y></t>
+				</div>
+			</div>	
+			<div id="topics" class="tab-pane fade in">
+				<div class="col-sm-2">
+					
+					<x>T</x>
+					<br>
+					<x>O</x>
+					<br>
+					<x>P</x>
+					<br>
+					<x>I</x>
+					<br>
+					<x>C</x>
+					<br>
+					<x>S</x>
+	
+				</div>
+
+				<div class="col-sm-8">
+					<ol>
+						<intext><li class="text-justify">COMMUNICATION</li></intext>
+						<intext><li class="text-justify">PROGRAMMING</li></intext>
+						<intext><li class="text-justify">Debate</li></intext>
+						<intext><li class="text-justify">Group Discussion</li>
+						<intext><li class="text-justify">TECHNICAL SOFTWARES</li></intext>
+						<intext><li class="text-justify">Aptitude</li></intext>
+					</ol>
+				</div>
+				<div class="col-sm-2">
+					<t><y>We</y>
+					<y>Are</y>
+					<y >Enlightenment</y>
+					<y>Club</y></t>
+				</div>
+			</div>	
+		</div>
 
 
 </body>
